@@ -1,0 +1,1155 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+	<link rel="stylesheet" href="css/demo.css"> <!-- Demo style -->
+  	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<style>
+	.brands {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 0px
+}
+
+.brands_slider_container {
+    height: 130px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: #fff;
+	padding-top:2px;
+}
+
+.brands_slider {
+    height: 100%;
+    margin-top: 15px
+}
+
+.brands_item {
+    height: 100%
+}
+
+.brands_item img {
+    max-width: 100%
+}
+
+.brands_nav {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    padding: 5px;
+    cursor: pointer
+}
+
+.brands_nav i {
+    color: #e5e5e5;
+    -webkit-transition: all 200ms ease;
+    -moz-transition: all 200ms ease;
+    -ms-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease
+}
+
+.brands_nav:hover i {
+    color: #676767
+}
+
+.brands_prev {
+   left: 11px;
+    top: 65.2%;
+}
+
+.brands_next {
+    right: 11px;
+    top: 65.2%;
+}
+.owl-item {
+    background: #e8e8e8;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.events p {
+    font-size: 16px;
+    margin-top: 10px;
+	color:#888;
+	line-height:26px;
+}
+.merinesolutions p {
+    font-size: 13px;
+	 font-size: 16px;
+	color:#888;
+	line-height:26px;
+    
+}
+a:hover{
+	text-decoration:none !important;
+}
+.thumbnail p {
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 11px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 6px;
+}
+p.event-text {
+    margin-top: 10px;
+	font-size:13px;
+}
+.event-text img {
+    vertical-align: baseline;
+    margin-right: 5px;
+}
+.event-img {
+    margin-top: 10px;
+}
+
+h2.main-headins {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 12px;
+    font-size: 24px;
+    color: #444;
+	text-align:left;
+	
+}
+.btn-group-sm>.btn, .btn-sm {
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+p.event-text {
+    margin-top: 10px;
+    text-align: left;
+}
+.alert.alert-success.fade.in.alersts {
+    padding: 0px;
+    background-color: #5f9ea069;
+}
+.fade.in{
+	position:absolute;
+	margin-top:-20%;
+}
+.alert.alert-success.fade.in.alersts {
+    margin-top: -72%;
+    margin-left: 14%;
+}
+.container-fluid.banner-img {
+    background-image: url(../assets/companypattern.png);
+    background-color: #00c853;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center;
+	padding-left: 7%;
+    padding-top: 5%;
+	padding-bottom: 5%;
+	padding-right:14%;
+}
+h2.pix-white.pix-no-margin-top.secondary-font {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 36px;
+    line-height: 58px;
+}
+.big-text {
+    font-size: 16px;
+    line-height: 26px;
+	max-width: 100%;
+    width: 580px;
+	color: #9DFAC3;
+}
+.pix-padding-bottom-40 {
+    padding-bottom: 40px;
+}
+.btn.btn-xl {
+    padding: 18px 44px;
+    font-size: 16px;
+	background: #fdbd10;
+	color:#fff;
+}
+.pix-margin-v-30 {
+    margin: 30px 0;
+	text-align:center;
+}
+.brown-bg.pix-white.wide{
+	background-color:rgba(212, 68, 87, 0.9);
+	padding:0.5em 1.4em;
+	color:#fff;
+}
+ span.pix_edit_text strong{
+  font-size: 24px;
+    color: #444;
+    line-height: 38px;
+}
+.pix-black-gray-light{
+	color:#888;
+	font-size:16px;
+	line-height:26px;
+}
+.container.Marina-solution{
+	margin-bottom:6%;
+	margin-top:6%;
+}
+span.pix_edit_text.text-partners strong {
+    color: #fff;
+}
+.well{
+	padding:15px !important;
+	background-color:#f4f4f4 !important;
+}
+.container.text-center {
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+.events {
+    background-color: rgba(0,0,0,0.08);
+    padding: 20px;
+}
+.pix-construction-1 {
+    background-image: linear-gradient(rgba(54, 63, 72, 0.85), rgba(54, 63, 72, 0.85)),url(../assets/main.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.pix-white {
+   
+}
+.secondary-font strong {
+    font-family: 'Montserrat', sans-serif;
+	font-size: 36px !important;
+    line-height: 58px  !important;
+	 color: #fff !important;
+}
+.pix-yellow strong{
+    color: #fdbd10  !important;
+	font-size: 20px !important;
+    line-height: 32px !important;
+}
+.pix-black-transparent-50 {
+    background: rgba(0,0,0,0.5);
+}
+.pix-padding-h-20 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+h4.pix-white.secondary-font strong  {
+    font-size: 24px !important;
+}
+form.pix-form-light-white-bg .form-control {
+    background: #ddd;
+}
+.pix-form-style input, .pix-form-style textarea {
+    background: #eee;
+    border: 0px;
+    border-radius: 3px;
+    outline: none;
+    box-shadow: none;
+    margin-bottom: 20px;
+    width: 1005;
+    -moz-box-sizing: border-box;
+    padding: 14px 15px;
+    height: 100%;
+}
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+    box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+    -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+.yellow-bg {
+    background: #fdbd10;
+	color:#fff;
+	font-size:14px;
+}
+.small-text strong{
+    font-size: 16px !important;
+	color:#fff !important;
+	line-height:24px !important;
+}
+.btn.btn-lg {
+    padding: 14px 30px;
+}
+.pix-padding-top-120 {
+    padding-top: 105px;
+}
+.container.form-containt {
+    width: 980px;
+}
+
+.pix-md-width-text {
+    max-width: 750px;
+    display: inline-block;
+}
+.pix-margin-bottom-30 {
+    margin-bottom: 30px;
+}
+.pix-padding-h-20 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.pix-padding-v-30 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.white-bg {
+    background: #fff;
+}
+.pix_section.pix-padding.gray-bg {
+    background-color: #f4f4f4;
+	padding-top:6%;
+	padding-bottom:6%;
+}
+.pix-round-shape-60 {
+    position: relative;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    overflow: hidden;
+}
+h6.media-heading.pix-black-gray-dark strong{
+	font-size:16px;
+	line-height:24px;
+}
+h4.pix-white.secondary-font {
+    margin-top: 0px;
+    padding-top: 20px;
+}
+
+
+
+.cd-header__nav {
+  /* mobile first - navigation hidden by default, triggered by tap/click on navigation icon */
+  float: right;
+  margin-right: 5%;
+  width: 44px;
+  height: 100%;
+  background: url("../assets/cd-icon-menu.svg") no-repeat center center;
+}
+
+.cd-header__nav ul {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  -webkit-transform: translateY(-100%);
+      -ms-transform: translateY(-100%);
+          transform: translateY(-100%);
+}
+
+.cd-header__nav ul.cd-is-visible {
+  -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+  -webkit-transform: translateY(50px);
+      -ms-transform: translateY(50px);
+          transform: translateY(50px);
+}
+
+.cd-header__nav a {
+  display: block;
+  height: 50px;
+  line-height: 50px;
+  padding-left: 5%;
+  background: #21272c;
+  border-top: 1px solid #333c44;
+  color: #ffffff;
+  font-size:16px;
+}
+.cd-selected a:hover{
+	color:#2c343b !important;
+}
+.cd-hero__nav .cd-selected a:hover{
+	color:#2c343b;
+	text-decoration:none;
+}
+a:focus, a:hover{
+	color:#fff !important;
+}
+.dropdown-contentss a {
+    color: #888 !important;
+    padding: 8px 20px !important;
+}
+.light-black-bg {
+    background: #222;
+}
+h5.pix-white.secondary-font strong {
+    font-size: 20px !important;
+    line-height: 32px !important;
+}
+.pix_orange_border {
+    border-top: thick solid #ff9800;
+    border-width: 3px;
+}
+.pix_feature_std {
+    border-radius: 3px;
+    padding: 20px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border-top: thick solid #00c853;
+    border-width: 3px;
+    box-shadow: 0px 2px 5px rgb(0 0 0 / 5%), 0px 1px 2px rgb(0 0 0 / 5%);
+}
+.gray-dark-bg {
+    background: #444;
+}
+.btn.wide {
+    padding-left: 34px;
+    padding-right: 34px;
+}
+.btn-round-lg, form.form-round-lg .form-control {
+    border-radius: 30px;
+}
+.orange-bg {
+    background: #f7941d;
+}
+.btn-sm, .btn-group-sm > .btn {
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+}
+.btn-round-lg strong {
+    font-size: 16px !important;
+    line-height: 25px !important;
+}
+.pix_orange_border {
+    border-top: thick solid #ff9800;
+    border-width: 3px;
+}
+.embed-responsive-4by3 {
+    padding-bottom: 48% !important;
+}
+.small-social i {
+    font-size: 26px;
+    line-height: 26px;
+    margin: 0 5px;
+}
+ .float-right {
+    padding-right: 5px;
+	float:right;
+}
+.float-right ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.float-right  li {
+    display: inline-block;
+    border-left: 1px solid #888;
+    line-height: 12px;
+    padding: 0 5px 0 7px;
+}
+p.float-left {
+    width: 70%;
+    display: contents;
+}
+.float-left a {
+    color: #888;
+}
+.float-right a {
+    color: #888;
+}
+.float-left a:hover {
+    color: red !important;
+}
+.float-right a:hover {
+    color: #888 !important;
+}
+ul.social {
+    display: flex;
+    flex-direction: row;
+}
+.social li {
+    margin-right: 30px;
+    margin-top: 15px;
+}
+.footer-content{
+	padding-bottom:30px;
+}
+.pix-padding-v-35 {
+    margin-top: 30px;
+}
+.cd-header__logo {
+  float: left;
+  margin: 0px 0 0 5%;
+}
+
+.cd-header__logo img {
+  display: block;
+  width:90%;
+}
+	</style>
+</head>
+<body>
+	<header class="cd-header">
+		<div class="cd-header__logo"><a href="#0"><img src="https://marineelectricals.com/images/logo3.png" alt="Logo"></a></div>
+		<nav class="cd-header__nav js-cd-header__nav">
+			<ul>
+				<li><a href="#0">Home</a></li>
+				<li>  <div class="dropdowns">
+    <button class="dropbtnss">About Us</button>
+    <div class="dropdown-contentss">
+      <a href="#">Profile</a>
+      <a href="#">Mission</a>
+      <a href="#">Board of Directors</a>
+	  <a href="#">Key Managerial Personnel</a>
+	  <a href="#">Competences & Markets</a>
+	
+    </div>
+  </div></li>
+				<li><a href="#0">Vision</a></li>
+				<li><a href="#0">CSR</a></li>
+				<li><a href="#0">Solutions</a></li>
+				<li><a href="#0">Investors</a></li>
+				<li><a href="#0">Careers</a></li>
+			</ul>
+		</nav> <!-- .cd-header__nav -->
+	</header>
+
+	<section class="cd-hero js-cd-hero js-cd-autoplay">
+		<ul class="cd-hero__slider">
+		    <li class="cd-hero__slide cd-hero__slide--selected  cd-hero__slide--video js-cd-slide ">
+				<div class="cd-hero__content cd-hero__content--full-width">
+					<h2>Marine Electricals</h2>
+					<p>One of the fastest growing Electrical and Automation Solution Provider for Industrial Applications.</p>
+					<a href="#0" class="cd-hero__btn">Read More</a>
+				</div> <!-- .cd-hero__content -->
+
+				<div class="cd-hero__content cd-hero__content--bg-video js-cd-bg-video" data-video="assets/video/video">
+					<!-- video element will be loaded using JavaScript -->
+				</div> <!-- .cd-hero__content -->
+			</li>
+			<li class="cd-hero__slide js-cd-slide">
+				<div class="cd-hero__content cd-hero__content--full-width">
+					<h2>Marine Electricals</h2>
+					<p>Marine Electricals attaches great importance to its responsibility towards the environment and people's safety and health.</p>
+					<a href="http://codyhouse.co/gem/hero-slider/" class="cd-hero__btn">Read More</a>
+				</div> <!-- .cd-hero__content -->
+			</li>
+
+
+			<li class="cd-hero__slide js-cd-slide">
+				<div class="cd-hero__content cd-hero__content--half-width hero-videos cd-hero__content--img">
+					
+				   <video width="620" height="440" controls>
+                          <source src=”assets/River.mp4” type=video/ogg>
+                          <source src="assets/River.mp4" type=video/mp4>
+                    </video>
+				</div> <!-- .cd-hero__content -->
+
+				<div class="cd-hero__content cd-hero__content--half-width">
+					<h2>Marine Electricals</h2>
+					<p>Marine Electricals offers customers high-quality total solutions via one contact point</p>
+					<a href="#0" class="cd-hero__btn">Start</a>
+					<a href="#0" class="cd-hero__btn cd-hero__btn--secondary">Read More</a>
+				</div> <!-- .cd-hero__content -->
+				
+			</li>
+
+			
+
+			<li class="cd-hero__slide js-cd-slide">
+				<div class="cd-hero__content cd-hero__content--full-width">
+					<h2>Marine Electricals</h2>
+					<p>One of the Largest supplier of Electrical and Automation Equipment for Marine Applications in India</p>
+					<a href="#0" class="cd-hero__btn">Start</a>
+					<a href="#0" class="cd-hero__btn cd-hero__btn--secondary">Read More</a>
+				</div> <!-- .cd-hero__content -->
+			</li>
+		</ul> <!-- .cd-hero__slider -->
+
+		<div class="cd-hero__nav js-cd-nav">
+			<nav>
+				<span class="cd-hero__marker cd-hero__marker--item-1 js-cd-marker"></span>
+				
+				<ul>
+					<li class="cd-selected"><a href="#0">Video</a></li>
+					<li><a href="#0">Intro</a></li>
+					
+					<li><a href="#0">Tech 2</a></li>
+					<li><a href="#0">Image</a></li>
+				</ul>
+			</nav> 
+		</div> 
+	</section> 
+
+
+
+
+<div class="container Marina-solution">
+   <div class="row">
+    <div class="col-md-12 col-xs-12">
+     <div class="pix-content pix-padding-bottom-40">
+      <h5 class="text-center pix-brown">
+       <span class="pix_edit_text"><strong>BEST FOR OUR MARINA SOLUTIONS</strong></span>
+      </h5>
+      <h5 class="pix-black-gray-light text-center">
+       <span class="pix_edit_text">Marine Electricals (India) Limited is an integrated technical services provider in the fields of electrical automation and information and communication technology solutions</span>
+      </h5>
+     </div>
+    </div>
+    <div class="col-md-4 col-xs-12">
+     <div class="pix-content pix-margin-v-20">
+      <div class="pix-cover-shape-180 ">
+       <img src="assets/ship-4.jpg" alt="" class="img-responsive">
+      </div>
+      <h4 class="pix-black-gray-dark pix-no-margin-bottom">
+       <span class="pix_edit_text"><strong>Corporate</strong></span>
+      </h4>
+      <p class="pix-black-gray-light big-text pix-margin-bottom-20">
+       <span class="pix_edit_text">
+        Marine Electricals is an integrated technical services provider in the fields of electrical automation and information and communication technology solutions..
+       </span>
+      </p>
+      <a href="#" class="btn brown-bg pix-white wide">
+       <span class="pix_edit_text text-edit">
+        VIEW MORE
+       </span>
+      </a>
+     </div>
+    </div>
+    <div class="col-md-4 col-xs-12">
+     <div class="pix-content pix-margin-v-20">
+      <div class="pix-cover-shape-180 ">
+       <img src="assets/ship-2.jpg" alt="" class="img-responsive">
+      </div>
+      <h4 class="pix-black-gray-dark pix-no-margin-bottom">
+       <span class="pix_edit_text"><strong>Induristal</strong></span>
+      </h4>
+      <p class="pix-black-gray-light big-text pix-margin-bottom-20">
+       <span class="pix_edit_text">
+        Marine Electricals is an integrated technical services provider in the fields of electrical automation and information and communication technology solutions..
+       </span>
+      </p>
+      <a href="#" class="btn brown-bg pix-white wide">
+       <span class="pix_edit_text text-edit">
+        VIEW MORE
+       </span>
+      </a>
+     </div>
+    </div>
+    <div class="col-md-4 col-xs-12">
+     <div class="pix-content pix-margin-v-20">
+      <div class="pix-cover-shape-180 ">
+       <img src="assets/ship-3.jpg" alt="" class="img-responsive">
+      </div>
+      <h4 class="pix-black-gray-dark pix-no-margin-bottom">
+       <span class="pix_edit_text"><strong>Renewable Energy</strong></span>
+      </h4>
+      <p class="pix-black-gray-light big-text pix-margin-bottom-20">
+       <span class="pix_edit_text">
+        Marine Electricals is an integrated technical services provider in the fields of electrical automation and information and communication technology solutions..
+       </span>
+      </p>
+      <a href="#" class="btn brown-bg pix-white wide">
+       <span class="pix_edit_text text-edit">
+           VIEW MORE
+       </span>
+      </a>
+     </div>
+    </div>
+   </div>
+  </div>
+
+
+
+
+
+
+<div class="container-fluid banner-img">
+  <div class="row">
+    <div class="col-md-12 col-xs-12">
+     <div class="pix-content text-left pix-padding-v-50">
+      <h2 class="pix-white pix-no-margin-top secondary-font">
+       
+        <strong>About Marine Electricals</strong>
+      
+      </h2>
+      <p class="pix-green-light-2 big-text pix-margin-bottom-20 pix-fixed-width-580 pix-inline-block">
+       <span class="pix_edit_text">Marine Electricals (India) Limited (Formerly known as Marine Electricals (I) Pvt. Ltd.) is an integrated technical services provider in the fields of electrical automation and information and communication technology solutions. Marine Electricals offers integrated and multidisciplinary total solutions that lead to better business processes and more efficiency 
+	   for customers and the customers they, in their turn, serve.</span>
+      </p>
+      <div class="pix-padding-bottom-40">
+       <a href="#" class="btn small-text yellow-bg btn-xl pix-white pix-margin-right-10 wide pix-margin-top-10">
+        <span class="pix_edit_text text-partners">
+         <strong>Find a Partners</strong>
+        </span>
+       </a>
+
+      </div>
+     </div>
+    </div>
+    <div class="col-md-3 col-xs-12">
+     <div class="pix-content text-center pix-margin-v-30">
+      <img src="assets/company-client-1.png" alt="" class="img-responsive pix-inline-block">
+     </div>
+    </div>
+    <div class="col-md-3 col-xs-12">
+     <div class="pix-content text-center pix-margin-v-30">
+      <img src="assets/company-client-2.png" alt="" class="img-responsive pix-inline-block">
+     </div>
+    </div>
+    <div class="col-md-3 col-xs-12">
+     <div class="pix-content text-center pix-margin-v-30">
+      <img src="assets/company-client-3.png" alt="" class="img-responsive pix-inline-block">
+     </div>
+    </div>
+    <div class="col-md-3 col-xs-12">
+     <div class="pix-content text-center pix-margin-v-30">
+      <img src="assets/company-client-4.png" alt="" class="img-responsive pix-inline-block">
+     </div>
+    </div>
+   </div>
+</div>
+
+ <div class="container text-center">    
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="events">
+        <h2 class="main-headins">Quality Management</h2>
+        <img src="assets/img3.jpg" class="" height="155" width="350" alt="Avatar">
+		<p align="justify">Marine Electricals (India) Limited (Formerly known as Marine Electricals (I) Pvt. Ltd.) 
+		is an integrated technical services provider in the fields of electrical automation and 
+		information and communication technology solutions. Marine Electricals offers integrated 
+		and multidisciplinary total solutions that lead to better business processes and more
+		efficiency for customers and the customers they, in their turn, serve.</p>
+		<a href="#" class="btn brown-bg pix-white wide">
+       <span class="pix_edit_text text-edit">
+        VIEW MORE
+       </span>
+      </a>
+      </div>    
+    </div>
+    <div class="col-sm-5">
+    
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="events">
+            <div class="">
+              <h2 class="main-headins">Marine Solutions</h2>
+			   <div class="row">
+	                <div class="col-sm-5">
+                       <img alt="Mars Image" class="img-responsive cover" src="assets/ships.jpg">
+                    </div>
+                    <div class="col-sm-7 merinesolutions">
+                        <p align="justify">Shipyards and ship owners are increasingly demanding a 
+		                    reliable and competent partner operating as a
+		                    full service provider and system integrator of tailor made and innovative technology solutions<br>
+		                   <a href="profile.html" class="readmore"> Read More</a></p>
+                    </div>
+                 </div>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.js"></script>
+<div class="brands">
+    <div class="containerss">
+        <div class="row">
+            <div class="col">
+                <div class="brands_slider_container">
+                    <div class="owl-carousel owl-theme brands_slider">
+                        <div class="owl-item">
+                            <div class="brands_item d-flex flex-column justify-content-center"><img src="https://marineelectricals.com/images/client/marine/greatoffshore.png" alt=""></div>
+                        </div>
+                        <div class="owl-item">
+                            <div class="brands_item d-flex flex-column justify-content-center"><img src="https://marineelectricals.com/images/client/marine/greatship.png" alt=""></div>
+                        </div>
+                        <div class="owl-item">
+                            <div class="brands_item d-flex flex-column justify-content-center"><img src="https://marineelectricals.com/images/client/marine/md.png" alt=""></div>
+                        </div>
+                        <div class="owl-item">
+                            <div class="brands_item d-flex flex-column justify-content-center"><img src="https://marineelectricals.com/images/client/marine/marnavi.png" alt=""></div>
+                        </div>
+                        <div class="owl-item">
+                            <div class="brands_item d-flex flex-column justify-content-center"><img src="https://marineelectricals.com/images/client/marine/lt.png" alt=""></div>
+                        </div>
+                        <div class="owl-item">
+                            <div class="brands_item d-flex flex-column justify-content-center"><img src="https://marineelectricals.com/images/client/marine/jaya.png" alt=""></div>
+                        </div>
+                        <div class="owl-item">
+                            <div class="brands_item d-flex flex-column justify-content-center"><img src="https://marineelectricals.com/images/client/marine/img6.png" alt=""></div>
+                        </div>
+                        <div class="owl-item">
+                            <div class="brands_item d-flex flex-column justify-content-center"><img src="https://marineelectricals.com/images/client/marine/img5.png" alt=""></div>
+                        </div>
+						<div class="owl-item">
+                            <div class="brands_item d-flex flex-column justify-content-center"><img src="https://marineelectricals.com/images/client/marine/img4.png" alt=""></div>
+                        </div>
+						<div class="owl-item">
+                            <div class="brands_item d-flex flex-column justify-content-center"><img src="https://marineelectricals.com/images/client/marine/img3.png" alt=""></div>
+                        </div>
+						<div class="owl-item">
+                            <div class="brands_item d-flex flex-column justify-content-center"><img src="https://marineelectricals.com/images/client/marine/img2.png" alt=""></div>
+                        </div>
+						<div class="owl-item">
+                            <div class="brands_item d-flex flex-column justify-content-center"><img src="https://marineelectricals.com/images/client/marine/img1.png" alt=""></div>
+                        </div>
+						<div class="owl-item">
+                            <div class="brands_item d-flex flex-column justify-content-center"><img src="https://marineelectricals.com/images/client/marine/hsl.png" alt=""></div>
+                        </div>
+						<div class="owl-item">
+                            <div class="brands_item d-flex flex-column justify-content-center"><img src="https://marineelectricals.com/images/client/marine/gs.png" alt=""></div>
+                        </div>
+						<div class="owl-item">
+                            <div class="brands_item d-flex flex-column justify-content-center"><img src="https://marineelectricals.com/images/client/marine/gulfcraft.png" alt=""></div>
+                        </div>
+                    </div> <!-- Brands Slider Navigation -->
+                    <div class="brands_nav brands_prev">
+					   <img src="assets/left.png" alt="">
+					</div>
+                    <div class="brands_nav brands_next">
+					    <img src="assets/right.png" alt="">
+					</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="">
+                    <h2 class="main-headins">News / Press Releases</h2>
+		            <p class="event-text"><img src="assets/Arrowdot.gif">  <b>12th July 2021</b> 	
+		            SMM Hamburg Stand No: B6 - 401, Hamburg, Germany</p>
+                 </div>
+
+				
+            </div>
+          </div>
+        </div>
+      </div>
+      
+        
+    </div>
+    <div class="col-sm-3 events">
+      <div class="thumbnailS">
+        <h2 class="main-headins"> Events</h2>
+		<div class="event-img1">
+           <img src="assets/event.jpg" alt="Paris" width="400" height="100">
+		   <p class="event-text"><img src="assets/Arrowdot.gif"><b>18 - 22 January 2020</b><br>
+            Elecrama 2020<br>Greater Noida, NCR, India</p>
+		</div>
+		<div class="event-img">
+           <img src="assets/event.jpg" alt="Paris" width="400" height="100">
+		   <p class="event-text"><img src="assets/Arrowdot.gif"> <b>3rd - 5th October 2019</b><br>INMEX 2019<br>
+				Bombay Convention &amp; Exhibition Centre, Goregaon (E), India.<br><br></p>
+		</div>
+	
+        <a href="#" class="btn brown-bg pix-white wide">
+       <span class="pix_edit_text text-edit">
+        MORE EVENTS
+       </span>
+      </a>
+      </div>     
+   
+    </div>
+  </div>
+</div>
+
+<div class="pix_section pix-construction-1">
+  <div class="container form-containt">
+   <div class="row">
+    <div class="col-md-7 col-xs-12">
+     <div class="pix-content pix-padding-top-120">
+      <h2 class="pix-white secondary-font">
+       <span class="pix_edit_text"><strong>BEST FOR OUR MARINA ELECTRICALS</strong></span>
+      </h2>
+      <h5 class="pix-no-margin-top pix-yellow">
+       <span class="pix_edit_text"><strong>MEET OUR NEW MARINA ELECTRICALS</strong></span>
+      </h5>
+      <p class="pix-light-white big-text pix-margin-bottom-20">
+       <span class="pix_edit_text">
+	   Marine Electricals is an integrated technical services provider in the fields of electrical 
+	   automation and information and communication technology solutions.
+       </span>
+      </p>
+     </div>
+    </div>
+    <div class="col-md-5 col-xs-12">
+     <div class="pix-content pix-black-transparent-50 pix-padding-h-20 pix-padding-top-40 pix-padding-bottom-40 text-center">
+      <h4 class="pix-white secondary-font">
+       <span class="pix_edit_text"><strong>CONTACT MARINA</strong></span>
+      </h4>
+      <p class="pix-light-gray big-text">
+       <span class="pix_edit_text">Marine Electricals is an integrated technical services provider in the fields of electrical 
+	   automation</span>
+      </p>
+      <form class="pix-form-style pixfort-form pix-padding-top-20 pix-form-light-white-bg">
+       <div class="form-group">
+        <input type="text" class="form-control" name="name" placeholder="Enter Your Full Name">
+       </div>
+       <div class="form-group">
+        <input type="email" class="form-control" name="email" placeholder="Enter Your Email Address" required="">
+       </div>
+       <div class="form-group">
+        <input type="text" name="phone" class="form-control" placeholder="Enter Your Phone Number">
+       </div>
+       <button type="submit" class="btn yellow-bg small-text btn-lg pix-white btn-block"><span class="pix_edit_text"><strong>Submit Information</strong></span></button>
+      </form>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+
+<div class="pix_section pix-padding gray-bg">
+  <div class="container form-containt">
+   <div class="row">
+    <div class="col-md-12 col-xs-12">
+     <div class="pix-content text-center">
+      <div class="pix-margin-bottom-10">
+             <!-- <img src="assets/heart.png" alt=""> -->
+	  </div>
+      <h2 class="pix-black-gray-dark pix-no-margin-top">
+       <span class="pix_edit_text">People Loved Our Products</span>
+      </h2>
+      <p class="pix-black-gray-light big-text pix-md-width-text pix-margin-bottom-30">
+       <span class="pix_edit_text"> Marine Electricals is an integrated technical services provider in the fields of electrical 
+	   automation and information and communication technology solutions</span>
+      </p>
+     </div>
+    </div>
+    <div class="col-md-4 col-xs-12">
+     <div class="pix-content white-bg pix-radius-3 pix-padding-v-30 pix-margin-v-10 pix-padding-h-20">
+      <p class="pix-black-gray-light big-text">
+       <span class="pix_edit_text">This Marine Electricals is an integrated technical services provider in the fields of electrical 
+	   automation and information and communication technology solutions.</span>
+      </p>
+      <div class="media">
+       <div class="media-left media-middle">
+        <div class="pix-round-shape-60">
+         <img src="assets/team1.jpg" alt="">
+        </div>
+       </div>
+       <div class="media-body media-middle">
+        <div class="pix-padding-left-5">
+         <h6 class="media-heading pix-black-gray-dark">
+          <span class="pix_edit_text">
+           <strong>Via Amazon.com</strong>
+          </span>
+         </h6>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="col-md-4 col-xs-12">
+     <div class="pix-content white-bg pix-radius-3 pix-padding-v-30 pix-margin-v-10 pix-padding-h-20">
+      <p class="pix-black-gray-light big-text">
+       <span class="pix_edit_text">This  Marine Electricals is an integrated technical services provider in the fields of electrical 
+	   automation and information and communication technology solutions.</span>
+      </p>
+      <div class="media">
+       <div class="media-left media-middle">
+        <div class="pix-round-shape-60">
+         <img src="assets/team2.jpg" alt="">
+        </div>
+       </div>
+       <div class="media-body media-middle">
+        <div class="pix-padding-left-5">
+         <h6 class="media-heading pix-black-gray-dark">
+          <span class="pix_edit_text">
+           <strong>Via Google.com</strong>
+          </span>
+         </h6>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="col-md-4 col-xs-12">
+     <div class="pix-content white-bg pix-radius-3 pix-padding-v-30 pix-margin-v-10 pix-padding-h-20">
+      <p class="pix-black-gray-light big-text">
+       <span class="pix_edit_text">This Marine Electricals is an integrated technical services provider in the fields of electrical 
+	   automation and information and communication technology solutions</span>
+      </p>
+      <div class="media">
+       <div class="media-left media-middle">
+        <div class="pix-round-shape-60">
+         <img src="assets/team3.jpg" alt="">
+        </div>
+       </div>
+       <div class="media-body media-middle">
+        <div class="pix-padding-left-5">
+         <h6 class="media-heading pix-black-gray-dark">
+          <span class="pix_edit_text">
+           <strong>Via Facebook.com</strong>
+          </span>
+         </h6>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="pix_section light-black-bg pix-padding-v-20">
+  <div class="container footer-content">
+   <div class="row">
+    <div class="col-md-7 col-xs-12">
+     <div class="pix-padding-v-30 text-center pix-inline-block">
+      <a class="pix-inline-block" href="#"><img src="" alt="" class="img-responsive"></a>
+     </div>
+    </div>
+    <div class="col-md-5 col-xs-12">
+     <div class="pix-padding-v-30">
+      <span class="pix-padding-v-10 pix-float-right">
+       <a href="#" class="medium-social">
+        <i class=" pixicon-visa2 big-icon-50 pix-slight-white"></i>
+       </a>
+       <a href="#" class="medium-social">
+        <i class="pixicon-mastercard2 big-icon-50 pix-slight-white"></i>
+       </a>
+       <a href="#" class="medium-social">
+        <i class="pixicon-amazon2 big-icon-50 pix-slight-white"></i>
+       </a>
+       <a href="#" class="medium-social">
+        <i class="pixicon-ebay2 big-icon-50 pix-slight-white"></i>
+       </a>
+      </span>
+     </div>
+    </div>
+	
+	 <div class="col-md-3 col-xs-12 column ui-droppable">
+     <div class="pix-content pix_feature_std gray-dark-bg pix_orange_border">
+      <h5 class="pix-white secondary-font">
+       <span class="pix_edit_text"><strong>Contact Us</strong></span>
+      </h5>
+      <p class="pix-black-gray-light pix-lineheight-36 big-text">
+       <span class="pix_edit_text">
+        B-1, Udyog Sadan - 3,
+           MIDC, Marol Industrial Area,
+           Andheri East,
+           Mumbai - 400 093.
+          <br>Tel: +91-22-40334300 / 28346076
+        
+       </span>
+      </p>
+      <a href="#" class="btn btn-sm orange-bg btn-round-lg pix-white pix-margin-bottom-10 pix-margin-right-10 wide pix-margin-top-10 secondary-font" data-toggle="modal" data-target="#popup_20">
+       <span class="pix_edit_text">
+        <strong>CONTACT</strong>
+       </span>
+      </a>
+     </div>
+    </div>
+     <div class="col-md-3 col-xs-12">
+     <div class="pix-black-gray-light pix-lineheight-36 big-text">
+        <span class="pix_edit_text"> Established in 1978, Marine Electricals serves the market for about 34 years 
+		 in diversified areas like Ship Building / Navy / Industries / Commercial Establishments. We are one of the
+		 largest supplier of Electrical & Automation Equipment for Marine Applications in India and Middle East Markets</span>
+		 <ul class="social">
+			<li><a href="" target="_blank"><img src="assets/facebook.png"></a></li>
+			<li><a href="" target="_blank"><img src="assets/twitter.png"></a></li>
+				<li><a href="" target="_blank"><img src="assets/linkedin.png"></a></li>
+					
+			</ul>
+     </div>
+    </div>
+   
+    <div class="col-md-6 col-xs-12">
+       <div class="pix-content">
+      <div class="embed-responsive embed-responsive-4by3">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d15966339.432697669!2d64.59443016136699!3d12.313625993501692!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d12.9794048!2d77.594624!4m5!1s0x3be7c821c0f0901f%3A0x1eabeb2debfa0eef!2sB-1%2C%20Udyog%20Sadan%20-%203%2C%20MIDC%2C%20Marol%20Industrial%20Area%2C%20Andheri%20East%2C%20Mumbai%20-%20400%20093!3m2!1d19.1268705!2d72.87396439999999!5e0!3m2!1sen!2sin!4v1632554671782!5m2!1sen!2sin" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+     </div>
+    </div>
+   
+   
+    <div class="col-md-12 col-xs-12">
+    </div>
+    <div class="col-md-12 col-xs-12">
+     <div class="pix-padding-v-35">
+	 
+      <span class="pix-black-gray-light big-text pix-float-left extr">
+	  <span class="pix_edit_text">
+	  <p class="float-left">
+          ©Copyright <span id="copyright">2021</span> - Marine Electricals. All Rights Reserved. Complete Web &amp; IT Solutions by <a href="http://nwdco.com" target="_blank"> NWDCo  </a> 
+        
+        </p>
+	 
+	     <ul class="float-right">
+        	<li><a href="#">Privacy policy</a></li>
+            <li><a href="#">Regulations</a></li>
+            <li><a href="#" class="gotop">Go Top</a></li>
+        </ul>
+		 </span>
+	  </span>
+     </div>
+    </div>
+  
+   </div>
+  </div>
+ </div>
+	<script src="js/main.js"></script> <!-- Resource JavaScrip -->
+	<script>
+$(document).ready(function(){
+
+if($('.brands_slider').length)
+{
+var brandsSlider = $('.brands_slider');
+
+brandsSlider.owlCarousel(
+{
+loop:true,
+autoplay:true,
+autoplayTimeout:5000,
+nav:false,
+dots:false,
+autoWidth:true,
+items:8,
+margin:12
+});
+
+if($('.brands_prev').length)
+{
+var prev = $('.brands_prev');
+prev.on('click', function()
+{
+brandsSlider.trigger('prev.owl.carousel');
+});
+}
+
+if($('.brands_next').length)
+{
+var next = $('.brands_next');
+next.on('click', function()
+{
+brandsSlider.trigger('next.owl.carousel');
+});
+}
+}
+
+
+});
+</script>
+</body>
+</html>
